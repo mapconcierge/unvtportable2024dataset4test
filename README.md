@@ -1,5 +1,5 @@
 # UNVT Portable 2024 Dataset for testing
-Minimum Sample Dataset for UNVT Portable 2024 beta version v0.5
+Minimum Sample Dataset for UNVT Portable 2024 beta version 0.5
 
 ## Data Set
 
