@@ -14,3 +14,7 @@ Minimum Sample Dataset for UNVT Portable 2024 beta version
 ### Natural Earth
  * [ne_10m_coastline](https://www.naturalearthdata.com/downloads/10m-physical-vectors/)
    
+
+
+## Web Map Library
+ * [MapLibre GL JS v4.7.1](https://github.com/maplibre/maplibre-gl-js/releases/tag/v4.7.1)
