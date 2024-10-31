@@ -18,7 +18,7 @@ const map = new maplibregl.Map({
         // ソースの種類。vector、raster、raster-dem、geojson、image、video のいずれか
         type: "raster",
         // タイルソースのURL
-        tiles: ["./zxy/GSImaps_english2024/{z}/{x}/{y}.png"],
+        tiles: ["http://10.42.0.1/zxy/GSImaps_english2024/{z}/{x}/{y}.png"],
         // タイルの解像度。単位はピクセル、デフォルトは512
         tileSize: 256,
         // データの帰属
@@ -29,7 +29,7 @@ const map = new maplibregl.Map({
         // ソースの種類。vector、raster、raster-dem、geojson、image、video のいずれか
         type: "raster",
         // タイルソースのURL
-        tiles: ["./zxy/dronebird/{z}/{x}/{y}.png"],
+        tiles: ["http://10.42.0.1/zxy/dronebird/{z}/{x}/{y}.png"],
         // タイルの解像度。単位はピクセル、デフォルトは512
         tileSize: 256,
         // データの帰属
@@ -42,7 +42,7 @@ const map = new maplibregl.Map({
         // タイルが利用可能な最大ズームレベル
         maxzoom: 10,
         // リソースへのURL
-        url: "pmtiles://http://10.0.4.44/zxy/ne_10m_land_z10.pmtiles",
+        url: "pmtiles://http://10.42.0.1/zxy/ne_10m_land_z10.pmtiles",
         attribution: "<a href='https://www.naturalearthdata.com/' target='_blank'>Natual Earth</a>",
       },
     },
